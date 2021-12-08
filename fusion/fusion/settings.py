@@ -89,6 +89,8 @@ DATABASES = {
 }
 
 """
+#Database para deploy no Heroku
+
 DATABASES = {
     'default': dj_database_url.config()
 }
