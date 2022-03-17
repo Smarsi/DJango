@@ -2,12 +2,13 @@
 source = .
 
 omit = 
-    */__init.py
+    */__init__.py
     */settings.py
     */manage.py
     */wsgi.py
     */apps.py
     */urls.py
     */admin.py
+    */asgi.py
     */migrations/*
     */tests/*
