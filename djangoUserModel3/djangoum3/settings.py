@@ -129,3 +129,7 @@ AUTH_USER_MODEL = 'usuarios.CustomUsuario'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+LOGIN_REDIRECT_URL = 'index' #Ao logar vá para index
+LOGOUT_REDIRECT_URL = 'index' #Ao deslogar vá para index
